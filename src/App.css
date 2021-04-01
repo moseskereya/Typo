@@ -15,7 +15,31 @@ list-style: none;
 }
 
 nav ul li{
- margin: 0 1rem;
+ margin: 0 .5rem;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    color: orange;
+}
+
+.image_404{
+    padding-top: 2rem;
+    max-width: 100%;
+    width: 600px;
+}
+.not-round{
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 nav h3{
@@ -39,17 +63,27 @@ nav h3{
     width: inherit;
     position: absolute;
     height: inherit;
-    background-image: linear-gradient(255deg , rgba(58, 39, 39, 0.87), rgba(43, 36, 36, 0.432));
+    background-image: linear-gradient(-55deg , rgba(219, 25, 18, 0.356), rgba(11, 44, 114, 0.432));
 }
 
 h1{
     z-index: 100;
     font-size: 2rem;
     font-weight: 100;
+    color: rgb(224, 223, 222);
 }
 .type{
     z-index: 100;
-    color: orange;
+    color: rgb(233, 233, 233);
     font-size: 1.5rem;
     font-weight: 100;
+}
+
+
+.btn{
+    margin-top: 1.5rem;
+    padding: 1rem 3rem;
+    background-color: rgb(230, 157, 131);
+    border-radius: .6rem;
+    border:none;
 }
